@@ -1,6 +1,5 @@
 from airflow import DAG
-from airflow.providers.databricks.operators.databricks \
-import DatabricksRunNowOperator, DatabricksSubmitRunOperator
+from airflow.providers.databricks.operators.databricks import DatabricksRunNowOperator, DatabricksSubmitRunOperator
 from airflow.operators.python import PythonOperator
 from airflow.operators.email import EmailOperator
 from airflow.utils.dates import days_ago
