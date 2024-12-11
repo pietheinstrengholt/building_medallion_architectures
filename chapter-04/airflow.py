@@ -14,8 +14,6 @@ default_args = {
 def my_python_callable():
     pass
 
-DXT_WORKSPACE_ID = "92187CE0-B7EB-4FDF-80CE-EFF76639EED8"
-
 with DAG('fabric_dag',
     description="A ELT workflow with medallion architecture",
     start_date = days_ago(2),
@@ -25,7 +23,7 @@ with DAG('fabric_dag',
 
      clean_data = FabricRunItemOperator(
          task_id="clean_data",
-         workspace_id=DXT_WORKSPACE_ID,
+         workspace_id="92187CE0-B7EB-4FDF-80CE-EFF76639EED8",
          item_id="27de4fe9-666d-40bb-8c71-cff017976d7",
          fabric_conn_id="fabric_conn_id",
          job_type="RunNotebook",
