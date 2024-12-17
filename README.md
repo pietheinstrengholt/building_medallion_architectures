@@ -7,3 +7,5 @@ This GitHub repository contains all the Python and SQL notebooks and scripts use
 Other useful links:
 
 - [Building the Medallion foundation with Azure Databricks and Unity Catalog](https://medium.com/@piethein/building-the-medallion-foundation-with-azure-databricks-and-unity-catalog-f4b42e7983d1)
+
+- [Construct the Bronze Layer with Azure Databricks](https://medium.com/@piethein/construct-the-bronze-layer-with-azure-databricks-426106a2c11d)
